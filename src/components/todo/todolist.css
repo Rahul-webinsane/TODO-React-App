@@ -1,0 +1,137 @@
+.todo {
+    width: 90%;
+    max-width: 500px;
+    height: 90%;
+    max-height: 612px;
+    background: #152431;
+    border-radius: 6px;
+    box-shadow: 24px 27px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.todo h1 {
+    margin-top: 27px;
+}
+
+.todo-add-form {
+    margin-top: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-add-form input {
+    padding: 12px 15px;
+    outline: 0;
+    border: 1px solid rgba(143, 168, 193, 0.5);
+    border-radius: 4px;
+    background: transparent;
+    max-width: 297px;
+    width: 55%;
+}
+
+.todo-add-form button {
+    background: #0C5488;
+    padding: 12px 14px;
+    border-radius: 4px;
+    border: 0;
+    margin-left: 8px;
+    max-width: 95px;
+    width: 35%;
+    cursor: pointer;
+}
+
+.todo-list {
+    margin-top: 38px;
+    width: 100%;
+    max-height: 380px;
+    overflow: auto;
+}
+
+.todo-list .todo-list-item {
+    padding: 25px 42px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgba(143, 168, 193, 0.3);
+}
+
+.todo-list .todo-list-item p {
+    cursor: pointer;
+}
+
+.todo-list .todo-list-item-edit {
+    padding: 14px 28px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-bottom: 1px dashed rgba(143, 168, 193, 0.3);
+}
+
+.action-icons {
+    display: flex;
+}
+
+.action-icons img {
+    width: 23px;
+    cursor: pointer;
+    height: 23px;
+}
+
+.action-icons .edit-icon {
+    margin-right: 11px;
+}
+
+.todo-edit-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.todo-edit-form .save-btn {
+    background: #0C5488;
+    padding: 13px 23px;
+    border-radius: 4px;
+    border: 0;
+    width: 25%;
+    max-width: 76px;
+    cursor: pointer;
+}
+
+.todo-edit-form .cancel-btn {
+    color: #0C5488;
+    background: #8FA8C1;
+    padding: 13px 15px;
+    border-radius: 4px;
+    border: 0;
+    width: 25%;
+    max-width: 76px;
+    cursor: pointer;
+}
+
+.todo-edit-form input {
+    padding: 12px 15px;
+    outline: 0;
+    border: 1px solid rgba(143, 168, 193, 0.5);
+    border-radius: 4px;
+    background: transparent;
+    width: 50%;
+    max-width: 234px;
+}
+
+.error-msg {
+    color: rgba(255, 0, 0, 0.651);
+    font-size: 12px;
+    margin-left: -55%;
+    margin-top: 5px;
+}
+
+.error-msg-edit {
+    color: rgba(255, 0, 0, 0.651);
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
